@@ -1,0 +1,115 @@
+.One, .Two, .Three {
+	box-sizing: border-box;
+	font-family: "Comic Sans MS",cursive,Sans-serif;
+	border-width: 2px;
+	background-color: gray;
+	border: solid;
+	display: flex;
+	margin: 5px;
+	font-size: 17px;
+
+}
+.Lesson{
+	display: flex; 
+	justify-content: space-around;
+}
+
+h1 {
+	text-align: center;
+
+}
+h2 {
+	text-align: right;
+	position: relative;
+}
+
+.One {
+	
+	width:360px;
+	height: 200px;
+	display: inline-block;
+	margin: 5px;
+	border: solid;
+	position: relative;
+}
+.Two {
+	
+	
+	
+	width:360px;
+	height: 200px;
+	display: inline-block;
+	margin: 5px;
+	position: relative;
+	
+
+}
+
+.Three{
+	
+	width:360px;
+	height: 200px;
+	display: inline-block;
+	margin: 5px;
+	position: relative;
+	
+
+}
+.Milk{
+	margin-left: auto;
+	width:80px;
+	margin-top: 0px;
+	padding: 5px;
+	border: solid;
+}
+
+
+.O1{
+	background-color: maroon;
+
+}
+.O2{
+	background-color: brown;
+}
+
+.O3{
+	background-color: pink;
+}
+
+
+
+
+@media (min-width: 768px) and (max-width: 991px){
+.Lesson{
+	flex-wrap:wrap;
+}
+.One{
+	width: 48%;
+	margin:0px 5px; 
+
+}
+.Two{
+	width: 48%;
+	margin:0px 5px;
+}
+.Three{
+	width:100%;
+	margin: 20px 5px;
+
+}
+}
+
+@media (max-width: 767px) {
+	
+  .One .Two .Three {
+    width: 100%;
+    margin:0px 5px;
+    height: 150px;
+   
+  }
+  .Lesson {
+    font-size: 16px;
+    flex-wrap: wrap;
+  }
+}
+
